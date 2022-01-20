@@ -6,6 +6,6 @@ A aplicação CardsFree procura simplificar o registo de entradas e saídas em i
 
 Desenvolvida utilizando a framework React Native, a aplicação dá prioridade a uma experiência de utilizador polida e simples, com a eficiência que o *use-case* exige.
 
-Este é um projeto levado a cabo pela equipa 4Radion, no contexto do Concurso FAQtos 2022, sob a "supervisão" das "professoras" Domingona e Fati-môna.
+Este é um projeto levado a cabo pela equipa 4Radion, no contexto do Concurso FAQtos 2022, sob a supervisão das professoras Ana Domingues e Fátima Santana.
 
 ###### Licenced under GNU GENERAL PUBLIC LICENSE v3.0
