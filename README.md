@@ -8,4 +8,4 @@ Desenvolvida utilizando a framework React Native, a aplicação dá prioridade a
 
 Este é um projeto levado a cabo pela equipa 4Radion, no contexto do Concurso FAQtos 2022, sob a "supervisão" das "professoras" Domingona e Fati-môna.
 
-Licenced under GNU GENERAL PUBLIC LICENSE v3.0
+###### Licenced under GNU GENERAL PUBLIC LICENSE v3.0
