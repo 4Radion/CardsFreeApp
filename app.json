@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Cards Free App",
+    "name": "CardsFreeApp",
     "slug": "CardsFreeApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,7 +20,6 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "tothepoint.CardsFreeApp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
