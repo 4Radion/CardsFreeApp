@@ -15,7 +15,7 @@ export default class App extends React.Component {
     return (
       <View style={style.container}>
         <Slider images={images}></Slider>
-        <Text>Hello slider</Text>
+        <Text style={style.hello}>Choose your Card!</Text>
       </View>
     );
   }
@@ -24,6 +24,16 @@ export default class App extends React.Component {
 const style = StyleSheet.create({
   container: {
     marginTop: 200,
+  },
+  hello: {
+    padding: 5,
+    fontSize: 30,
+    width: 280,
+    height: 55,
+    backgroundColor: "white",
+    alignSelf: "center",
+    borderRadius: 5,
+    marginTop: -300,
   },
   wrapper: {
     flex: 1,

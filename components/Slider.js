@@ -70,17 +70,17 @@ const style = StyleSheet.create({
   pagination: {
     flexDirection: "row",
     position: "absolute",
-    bottom: 0,
+    bottom: -20,
     alignSelf: "center",
   },
   pagingText: {
     fontSize: width / 30,
-    color: "#888",
+    color: "#050505",
     margin: 3,
   },
   pagingActiveText: {
     fontSize: width / 30,
-    color: "white",
+    color: "red",
     margin: 3,
   },
 });
