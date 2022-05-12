@@ -1,10 +1,12 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import Home from './pages/Home';
 import New from './pages/New';
-import Notification from './pages/Notification';
+import Settings from './pages/Settings';
 import Profile from './pages/Profile';
 import Search from './pages/Search';
 
@@ -15,45 +17,57 @@ const Tab = createBottomTabNavigator();
 export default function Routes(){
     return (
         <Tab.Navigator
-        tabBarOptions={{
-            style:{
-                backgroundColor: '#a9a9a9',
-                borderTopColor: 'transparent',
-            },
-            activeTintColor: 'red',
-            tabStyle:{
+        initialRouteName="Home"
+        screenOptions={{
+            
+            tabBarActiveTintColor: 'rgba(230,48,53,255)',
+          
+            tabBarItemStyle:{
                 paddingBottom: 5,
                 paddingTop: 5,
             },
+            tabBarStyle:{
+                display: 'flex',
+            }
+            
+
 
         }}
         >
 
             <Tab.Screen
+            name="Settings"
+            options={{
+                tabBarLabel: 'Home',
+                tabBarIcon: ({ color, size }) => (
+                  <MaterialCommunityIcons name="cog" color={color} size={size} />
+                ),
+              }}
+            component={Settings}
+            
+
+            />
+
+            <Tab.Screen
             name="Home"
             component={Home}
-            />
-
-            <Tab.Screen
-            name="Search"
-            component={Search}
-            />
-
-            <Tab.Screen
-            name="New"
-            component={New}
-
-            />
-
-            <Tab.Screen
-            name="Notification"
-            component={Notification}
-
+            options={{
+                tabBarLabel: 'Home',
+                tabBarIcon: ({ color, size }) => (
+                  <MaterialCommunityIcons name="home" color={color} size={size} />
+                ),
+              }}
             />
 
             <Tab.Screen
             name="Profile"
             component={Profile}
+            options={{
+                tabBarLabel: 'Home',
+                tabBarIcon: ({ color, size }) => (
+                  <MaterialCommunityIcons name="account" color={color} size={size} />
+                ),
+              }}
 
             />
 
