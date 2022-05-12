@@ -1,6 +1,7 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable prettier/prettier */
 import React from 'react';
+
 import {
   View,
   Image,
@@ -8,6 +9,7 @@ import {
   Dimensions,
   Text,
   StyleSheet,
+
 } from 'react-native';
 
 const { width } = Dimensions.get('window');
@@ -67,6 +69,7 @@ const style = StyleSheet.create({
   image: {
     width,
     height,
+
     resizeMode: 'contain',
   },
   pagination: {
@@ -78,11 +81,14 @@ const style = StyleSheet.create({
   pagingText: {
     fontSize: width / 30,
     color: '#050505',
+
     margin: 3,
   },
   pagingActiveText: {
     fontSize: width / 30,
+
     color: 'red',
+
     margin: 3,
   },
 });
