@@ -1,7 +1,4 @@
-/* eslint-disable eqeqeq */
-/* eslint-disable prettier/prettier */
-import React from 'react';
-
+import React from "react";
 import {
   View,
   Image,
@@ -9,10 +6,9 @@ import {
   Dimensions,
   Text,
   StyleSheet,
+} from "react-native";
 
-} from 'react-native';
-
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get("window");
 const height = width * 0.6;
 
 export default class Slider extends React.Component {
@@ -69,26 +65,22 @@ const style = StyleSheet.create({
   image: {
     width,
     height,
-
-    resizeMode: 'contain',
+    resizeMode: "cover",
   },
   pagination: {
-    flexDirection: 'row',
-    position: 'absolute',
+    flexDirection: "row",
+    position: "absolute",
     bottom: -20,
-    alignSelf: 'center',
+    alignSelf: "center",
   },
   pagingText: {
     fontSize: width / 30,
-    color: '#050505',
-
+    color: "#050505",
     margin: 3,
   },
   pagingActiveText: {
     fontSize: width / 30,
-
-    color: 'red',
-
+    color: "red",
     margin: 3,
   },
 });
