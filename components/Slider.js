@@ -1,7 +1,6 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable prettier/prettier */
 import React from 'react';
-
 import {
   View,
   Image,
@@ -9,7 +8,6 @@ import {
   Dimensions,
   Text,
   StyleSheet,
-
 } from 'react-native';
 
 const { width } = Dimensions.get('window');
