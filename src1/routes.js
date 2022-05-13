@@ -38,7 +38,7 @@ export default function Routes(){
             <Tab.Screen
             name="Settings"
             options={{
-                tabBarLabel: 'Home',
+                tabBarLabel: 'Settings',
                 tabBarIcon: ({ color, size }) => (
                   <MaterialCommunityIcons name="cog" color={color} size={size} />
                 ),
@@ -63,7 +63,7 @@ export default function Routes(){
             name="Profile"
             component={Profile}
             options={{
-                tabBarLabel: 'Home',
+                tabBarLabel: 'Profile',
                 tabBarIcon: ({ color, size }) => (
                   <MaterialCommunityIcons name="account" color={color} size={size} />
                 ),
